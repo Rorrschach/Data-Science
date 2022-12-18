@@ -45,7 +45,12 @@ Q2.4) After removing the abovementioned columns the accuracy of the model has lo
 Q3) cv = ShuffleSplit(n_splits=10, test_size=0.2, random_state=0)
 	cv = LeavePOut(p=2)
 
-Q4)
+Q4) New Instances
+df = df.append({'weight': 80, 'height': 180, 'beard': 1, 'hair_length': 3, 'shoe_size': 45, 'scarf': 0, 'eye_color': 0, 'gender': 1}, ignore_index=True)
+df = df.append({'weight': 75, 'height': 170, 'beard': 0, 'hair_length': 0, 'shoe_size': 42, 'scarf': 0, 'eye_color': 0, 'gender': 1}, ignore_index=True)
+df = df.append({'weight': 70, 'height': 145, 'beard': 0, 'hair_length': 2, 'shoe_size': 39, 'scarf': 1, 'eye_color': 1, 'gender': 0}, ignore_index=True)
+df = df.append({'weight': 72, 'height': 150, 'beard': 0, 'hair_length': 1, 'shoe_size': 40, 'scarf': 0, 'eye_color': 3, 'gender': 0}, ignore_index=True)
+df = df.append({'weight': 77, 'height': 190, 'beard': 1, 'hair_length': 2, 'shoe_size': 44, 'scarf': 0, 'eye_color': 3, 'gender': 1}, ignore_index=True)
 
 
 
