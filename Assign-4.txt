@@ -42,5 +42,12 @@ Q2.3) The most powerful attribute is the show_size attribute as every single fem
 
 Q2.4) After removing the abovementioned columns the accuracy of the model has lowered slightly 
 
+Q3) cv = ShuffleSplit(n_splits=10, test_size=0.2, random_state=0)
+	cv = LeavePOut(p=2)
+
+Q4)
+
+
+
 
 
