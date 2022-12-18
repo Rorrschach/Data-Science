@@ -1,0 +1,46 @@
+Q1.1. How many instances does the dataset contain?
+80
+
+Q1.2. How many input attributes does the dataset contain?
+7
+
+Q1.3. How many possible values does the output attribute have?
+2
+
+Q1.4. How many input attributes are categorical?
+4
+
+Q1.5. What is the class ratio (male vs female) in the dataset?
+23:17
+
+1/3 test 2/3 test 
+
+	Random forest classifier
+	Incorrect predicted: 0
+
+	Support Vector Machine
+	Incorrect predicted: 6
+
+	Multilayer Perceptron
+	Incorredted predicted: 7
+
+80/20 Train test
+	
+	Random forest classifier
+	Incorrect predicted: 0
+
+	Support Vector Machine
+	Incorrect predicted: 2
+
+	Multilayer Perceptron
+	Incorredted predicted: 6
+
+
+The number of instances are not large enough to make a significant difference in the results
+
+Q2.3) The most powerful attribute is the show_size attribute as every single female has a shoe size less than 40 and every male had larger than 40 except 1. Another important attribute is weight, as no female has weight over 70kg and only 16 males have weight under 70kg
+
+Q2.4) After removing the abovementioned columns the accuracy of the model has lowered slightly 
+
+
+
